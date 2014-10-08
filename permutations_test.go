@@ -1,4 +1,4 @@
-package main
+package permutations
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
@@ -6,7 +6,7 @@ import (
 )
 
 func TestPermutations(t *testing.T) {
-	Convey("Subject: Test generation of permutations of string, tail recursive implementation", t, func() {
+	Convey("Subject: Test generation of permutations of string", t, func() {
 
 			Convey("Test Permutations with one char, should contain only character itself", func() {
 					oneCharString := "a"

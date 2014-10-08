@@ -1,4 +1,4 @@
-package main
+package permutations
 
 func merge(ins []rune, c rune) (result []string) {
 	for i := 0; i <= len(ins); i++ {
